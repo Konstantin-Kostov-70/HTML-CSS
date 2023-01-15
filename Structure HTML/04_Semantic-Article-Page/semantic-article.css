@@ -1,0 +1,32 @@
+body {
+    background-color: #e4e978;
+    
+    
+}
+
+article {
+    width: 700px;
+    border: 1px solid #b2ad7d;
+    margin: 15px 10px;
+    background-color:  #f2f4c0;
+    padding: 15px;
+    
+}
+
+section {
+    color: #5c6e91;
+    font-style: italic;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: larger;
+}
+
+
+
+
+
