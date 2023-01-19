@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 1000px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #ccc;
+    text-align: left;
+}
+
+td.grey {
+    background-color: #f1f1f1;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 2px solid rgb(221,221,221) ;
+    padding-left: 15px;
+    
+}
+
+p.text-right {
+    text-align: right;   
+}
