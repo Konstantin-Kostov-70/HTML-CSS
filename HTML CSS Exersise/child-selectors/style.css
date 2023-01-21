@@ -1,0 +1,11 @@
+.nth-example li:nth-child(1){
+    background-color: rgb(222, 136, 136);
+}
+
+.nth-example li:nth-child(even){
+    background-color: burlywood;
+}
+
+.nth-calculate li:nth-child(3n + 1) {
+    background-color: aqua;
+}

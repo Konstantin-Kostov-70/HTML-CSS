@@ -1,0 +1,20 @@
+/* Adjacent sibling combinator */
+.container-adjacent p + p {
+    background-color: orange;
+}
+
+.container-adjacent-2 div + p {
+    background-color: green;
+}
+
+.container-general p ~ p {
+    background-color: red;
+}
+
+.container-general-2 div ~ p {
+    background-color: blue;
+}
+
+P {
+    width: 400px;
+}

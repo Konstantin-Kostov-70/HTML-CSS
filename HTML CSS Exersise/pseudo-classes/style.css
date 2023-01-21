@@ -1,0 +1,23 @@
+div {
+    margin: 10px;
+}
+
+.link:visited {
+    color: red;
+}
+
+.link:active {
+    color: green;
+}
+
+.link:hover {
+    background-color: rgb(211, 211, 224);
+}
+
+.btn:active{
+   background-color: red;
+}
+
+.input:focus {
+    background-color: grey;
+}

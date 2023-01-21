@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+div {
+    width: 65%;
+    padding-left: 30px;
+    display: inline-block;       
+}
+
+
+
+img {
+    width: 70%;
+    height: 70%;
+}
+
+aside {
+    margin-right: 90px;
+    width: 25%;
+    float: right;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,20 @@
+.card {
+    width: 500px;
+    height: 200px;
+    background-color: lightgray;
+    padding: 10px;
+    overflow: auto;
+}
+
+.card__title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card__title2 {
+    text-align: center;
+}
+
+.card__description {
+    text-indent: 30px;
+}

@@ -6,7 +6,12 @@ html {
     margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Georgia, serif;
 }
 
@@ -24,7 +29,7 @@ th {
     text-align: left;
 }
 
-td.grey {
+table tbody tr:nth-child(odd) {
     background-color: #f1f1f1;
 }
 
