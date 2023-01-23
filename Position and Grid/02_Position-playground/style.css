@@ -1,0 +1,40 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+.viewport {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-areas: 
+    "div1"
+    "div2";
+}
+
+.viewport.up{
+    background: linear-gradient(90deg, #416F93 0%, #00BCD4 47%, #008000 100%);
+    grid-area: div1;
+}
+
+.viewport.down {
+    background: linear-gradient(90deg, #416F93 0%, #00BCD4 0%, #B22555 0%, #A15753 51%, #CD362B 100%);
+    grid-area: div2;
+}
+
+section.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: #fff;
+}
+
+img {
+    width: 18em; 
+}
+
+i {
+    position: absolute;
+    bottom: 4%;
+    right: 2%;  
+}
+

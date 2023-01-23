@@ -1,0 +1,112 @@
+
+
+body {
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+   
+}
+
+.body__header {
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.body__header > p {
+    display: inline-block;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.body__header__nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    color: rgb(0, 102, 0) ;
+}
+
+.body__header__nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    position: absolute;
+    top: 85px;
+    right: 15%;
+}
+
+aside li a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+img {
+    background-color: rgb(255, 255, 255) ;
+    border: 4px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25) ;
+}
+
+img.item1 {
+    float: right;
+}
+
+img.item2 {
+    float: left;
+    margin-right: 10px;
+}
+
+.div__left {
+    
+    width: 50%;
+    border-right: 2px solid lightgray;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.div__right {
+    width: 40%;
+    display: inline-block;
+    padding-left: 15px;
+    font-style: italic;
+   
+}
+
+.prg1 {
+    position: relative;
+    top: -17px;
+}
+
+.prg2 {
+   margin-left: 180px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    right: 40px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

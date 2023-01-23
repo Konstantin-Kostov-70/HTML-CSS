@@ -7,10 +7,9 @@ body {
 div {
     width: 65%;
     padding-left: 30px;
-    display: inline-block;       
+    display: inline-block;  
+      
 }
-
-
 
 img {
     width: 70%;
@@ -20,7 +19,11 @@ img {
 aside {
     margin-right: 90px;
     width: 25%;
-    float: right;
+    float: right;  
+}
+
+.first-article {
+    padding-left: 30px;   
 }
 
 h1,
@@ -28,3 +31,8 @@ h2,
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h1 {
+    padding-top: 12px;
+}
+
