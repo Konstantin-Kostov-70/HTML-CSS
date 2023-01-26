@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    max-width: 65vw;
+    min-width: 390px;
+    grid-template-areas: 
+    'work work work work work work work work work work rem rem'
+    "mon mon thu thu wed wed thur thur fri fri rem rem "
+    "week week week week week week week week week week spe spe"
+    "sat sat sat sat sat sun sun sun sun sun spe spe"
+    ;  
+    height: 300px;
+    border: 1px solid black;
+}
+
+span {
+    border: 1px solid black;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.item:nth-child(1){
+    grid-area: work;
+}
+.item:nth-child(2) {
+    grid-area: mon;
+}
+.item:nth-child(3) {
+    grid-area: thu;
+}
+.item:nth-child(4) {
+    grid-area: wed;
+}
+.item:nth-child(5) {
+    grid-area: thur;
+}
+.item:nth-child(6) {
+    grid-area: fri;
+}
+.item:nth-child(7) {
+    grid-area: week;
+}
+.item:nth-child(8) {
+    grid-area: sat;
+}
+.item:nth-child(9) {
+    grid-area: sun;
+}
+.item:nth-child(10) {
+    grid-area: rem;
+}
+.item:nth-child(11) {
+    grid-area: spe;
+}
+

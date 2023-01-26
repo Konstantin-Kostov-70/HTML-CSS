@@ -1,80 +1,60 @@
-html {
+* {
     box-sizing: border-box;
 }
 
 .container {
     max-width: 65vw;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    height: 320px;
+    min-width: 400px;
+     
 }
 
 section {
-  
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;  
 }
-
 
 section.notes {
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 300px;
-    
+    width: 30%;
+    flex-direction: column; 
 }
 
-section.notes .note-item {
-    width: 100%;
-    height: 100%;
+section.week {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 span {
-    /* display: inline-block; */
     border: 1px solid black;
-    padding: 20px;
+    width: 20%;
+    padding: 15px;
+    font-size: 0.9vw;
+    font-weight: bold;
+    text-align: center;
 }
 
-section .item:nth-child(1) {
-    background-color: brown;
+.item:nth-child(1), 
+.item:nth-child(7){
     width: 100%;
 }
 
-section .item:nth-child(7) {
-    background-color: blue;
-    width: 100%;
+.item:nth-child(8),
+.item:nth-child(9) {
+    width: 50%;
 }
 
-section .item:nth-child(2) {
-    background-color: orange;
-    width: 15%;
+.note-item:nth-child(1),
+.note-item:nth-child(2) {  
+    height: 50%;
+    width: 60%;   
+    border-right: 1.5px solid black;
 }
 
-section .item:nth-child(3) {
-    background-color: orange;
-    width: 15%;
-    
+.note-item:nth-child(1) {
+    border-top: 1.5px solid black;
 }
-section .item:nth-child(4) {
-    background-color: orange;
-    width: 15%;
+.note-item:nth-child(2) {
+    border-bottom: 1.5px solid black;
 }
-section .item:nth-child(5) {
-    background-color: orange;
-    width: 15%;
-}
-section .item:nth-child(6) {
-    background-color: orange;
-    width: 15%;
-}
-section .item:nth-child(8) {
-    background-color: orange;
-    width: 45%;
-}
-section .item:nth-child(9) {
-    background-color: orange;
-    width: 45%;
-}
-
-
