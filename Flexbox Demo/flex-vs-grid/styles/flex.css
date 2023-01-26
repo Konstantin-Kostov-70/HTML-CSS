@@ -1,12 +1,12 @@
-.container-grid {
+/* .container-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-}
+} */
 
 
 
-.container-flex {
+/* .container-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -15,4 +15,4 @@
 .container-flex .item {
   width: 30%;
   flex-grow: 1;
-}
+} */

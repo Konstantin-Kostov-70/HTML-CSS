@@ -5,6 +5,7 @@ body {
 
 ul.container {
   margin: 3rem;
+  border: 2px dashed black;
 }
 
 .container .item {

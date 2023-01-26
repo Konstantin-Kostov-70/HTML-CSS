@@ -1,0 +1,40 @@
+body {
+    background-color: #dadbdf;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  ul.container {
+    list-style: none;
+    margin: 3rem;
+  }
+
+  .container .item {
+     padding: 1rem;
+     border-radius: 0.25rem;
+     text-align: center;
+     font-weight: bold;
+    
+
+  }
+
+  .container .item:nth-child(1) {
+    background-color: aqua;
+  }
+  .container .item:nth-child(2) {
+    background-color: red;
+  }
+  .container .item:nth-child(3) {
+    background-color: rgb(235, 215, 105);
+  }
+  .container .item:nth-child(4) {
+    background-color: green;
+  }
+  .container .item:nth-child(5) {
+    background-color: brown;
+  }
+  .container .item:nth-child(6) {
+    background-color: orange;
+  }
+  .container .item:nth-child(7) {
+    background-color: blue;
+  }
