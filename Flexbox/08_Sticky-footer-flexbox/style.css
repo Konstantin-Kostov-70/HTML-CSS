@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+h1, main {
+    margin: 20px;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color:  rgb(255, 255, 255);
+    width: 100%;
+    position: sticky;
+    bottom: 8px;
+    padding: 10px 20px;
+}
+
