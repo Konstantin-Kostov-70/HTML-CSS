@@ -26,5 +26,6 @@ body {
     height: 100%;
     border-radius: 6px;
     box-shadow: 1px 1px 13px -1px black;
+    object-fit: cover;
  }
 
