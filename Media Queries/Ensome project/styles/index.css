@@ -1,0 +1,55 @@
+@import url('reset.css');
+@import url('variables.css');
+@import url('clients-section.css');
+@import url('busines-section.css');
+
+body {
+    background-color: var(--clr-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .sectoin--full {
+
+} */
+
+.section--narow {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 24px;
+}
+
+.sections__title,
+.section__desc {
+    max-width: 540px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections__title { 
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: var(--clr-black);
+}
+
+.section__desc {
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: var(--clr-grey);
+}
+
+@media screen and (min-width: 1024px) {
+    .section--narrow {
+      padding: 100px 50px;
+    }
+  
+    .sections__title {
+      margin-bottom: 30px;
+      font-size: 46px;
+    }
+  
+    .section__desc {
+      font-size: 20px;
+    }
+  }
