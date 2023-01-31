@@ -27,7 +27,6 @@ aside {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 .first-ul {
@@ -51,3 +50,41 @@ main {
     grid-area: main;
 }
 
+h1 {
+    display: inline-block;
+}
+
+.nav {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.item {
+    list-style: none;
+    display: inline;
+}
+
+.nav__item  .item  a {
+    color: rgb(53, 100, 153);
+    padding: 5px 15px;
+}
+
+@media (max-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-areas: 
+        'header header'
+        'aside aside'
+        'main main'
+        'footer footer';
+    }
+    .nav, .item {
+        display: block;
+    }
+
+    .item {
+        margin: 50px;
+    }
+    
+}
