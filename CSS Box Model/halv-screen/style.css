@@ -1,0 +1,26 @@
+body {
+    height: 550px;
+}
+
+.first {
+    background-color: aqua;
+}
+.second {
+    background-color: salmon;  
+}
+
+h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.first,
+.second {
+    height: 50%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
