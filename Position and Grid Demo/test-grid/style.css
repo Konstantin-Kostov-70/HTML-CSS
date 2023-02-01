@@ -47,7 +47,7 @@ body {
     grid-template-rows: repeat(4, 1fr);
     background-color: lightgreen;
     grid-template-areas: 
-    "p p p p"
+    "parag parag parag parag"
     ". fv fv ."
     ". fv fv ."
     ". . . .";
@@ -68,13 +68,13 @@ body {
 }
 
 img {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 p {
     text-align: center;
-    grid-area: p;
+    grid-area: parag;
 }
 
 h3 {
