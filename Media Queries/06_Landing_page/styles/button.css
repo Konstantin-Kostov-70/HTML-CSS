@@ -1,0 +1,15 @@
+.web__btn {
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form__btn {
+    background-color: white;
+    border: none;
+    padding: 0px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

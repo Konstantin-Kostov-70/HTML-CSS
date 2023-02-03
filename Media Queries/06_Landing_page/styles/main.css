@@ -1,0 +1,267 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('typography.css');
+@import url('button.css');
+@import url('forms.css');
+
+body {
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+}
+
+header {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 80px;
+}
+
+.header__info {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.header__title {
+    color: #710078;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav {
+    margin-left: 270px;
+}
+
+.nav,
+.nav__items__container,
+.nav__items {
+   display: inline-block;
+}
+
+.nav__items:not(:last-child) {
+    margin-right: 20px;
+}
+
+hr {
+   width: 60px;
+   height: 2px;
+   background-color: black;
+   border: none;
+}
+
+.web__heading,
+.web__pic__box {
+    display: inline-block;
+} 
+
+.web__heading {
+    width: 42%;
+    margin-right: 50px ;
+}
+
+.web__title,
+.web__desc {
+    margin-bottom: 15px;
+}
+
+.website {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 80px;
+}
+
+.team__title,
+.middle__title,
+.test__title {
+    text-align: center;
+}
+
+.team__cards__container,
+.test__cards__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+   margin: 20px  auto;
+    width: 70%;
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card__img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px gray;
+    margin-bottom: 15px;
+   
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.card__title {
+    color: rgb(83, 82, 82);
+}
+
+.card__desc {
+    margin-top: 15px;
+    color: rgb(83, 82, 82);
+}
+
+.middle {
+    background-color: #710078;
+}
+
+.middle__title {
+    color: white;
+    padding-top: 15px;
+}
+
+.card__desc.test {
+    margin-bottom: 15px;
+}
+
+.second-part {
+    width: 100%;
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 10px gray; 
+    padding-top: 20px; 
+    padding-bottom: 70px;
+}
+
+footer {
+    padding: 40px 100px 60px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgets a {
+  color: rgb(83, 82, 82);
+   
+}
+
+.footer__art,
+.sitemap {
+    width: 25%;
+   display: inline-block;
+}
+
+.contacts {
+    width: 20%;
+    display: inline-block;
+}
+
+.first__widget,
+.second__widget {
+    display: inline-block;
+}
+
+
+.contacts__items > p:nth-child(5),
+.contacts__items > p:nth-child(6) {
+    margin-left: 19px;
+}
+
+.footer__title,
+.sitemap__title {
+    margin-bottom: 8px;
+}
+
+@media (max-width:1000px) {
+
+    .header__info {
+        width: 50%;
+    }
+
+    .website {
+        justify-content: space-around;
+    }
+
+    .team__cards__container,
+    .test__cards__container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 100%;   
+   }
+
+}
+
+@media (max-width:760px) {
+
+    .header__info {
+        display: inline;
+        width: 85%;
+        color: red;
+        margin-left: 20px;
+    }
+
+    .nav {
+        width: 10%;
+        margin-left: 20px;
+    }
+
+    i {
+        font-size: 80px;
+    }
+
+    .web__heading {
+        width: 70%;
+        margin-right: 20px;
+    }
+
+    .web__btn {
+        width: 80%;
+    }
+
+    .form__input {
+        margin-left: 10px;   
+    }
+
+    .form__btn {
+        margin-right: 10px;
+    }
+    
+    footer {
+        flex-direction: column;
+        padding: 40px 15px 60px 15px;
+    }
+
+    .footer__art,
+    .sitemap,
+    .contacts {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+

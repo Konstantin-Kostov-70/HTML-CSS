@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Teko&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Teko&display=swap');
+
+.header__desc {
+    text-transform: uppercase;
+    font-family: Teko;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+ul,
+p,
+button {
+    font-family: Helvetica, sans-serif;
+}
+
+.nav__items__container {
+    font-size: small;
+    font-weight: 600;
+}
+
+h2,
+h4 { 
+    font-family: Merriweather;
+}
+
+i {
+    font-size: 100px;
+}
+
+.card {
+    font-size: small;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.card h4 {
+    font-family: Helvetica, sans-serif;
+}
+
+.card__desc {
+    font-style: italic;
+}
+
+.footer__desc,
+.first__widget,
+.second__widget {
+    font-size: small;
+    font-weight: 600;
+}
+
+.contacts__items {
+    font-size: smaller;
+    font-weight: 600;
+}
+
+i.cont {
+    font-size: 13px;
+}
+
+
+
