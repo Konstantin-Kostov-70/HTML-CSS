@@ -1,0 +1,30 @@
+@import url("../styles/typography.css");
+
+body {
+    background-color: rgb(228, 226, 226);
+}
+
+th, td {
+    width: 144px; 
+    height: 25px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+ }
+ table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+ }
+
+ thead {
+    background-color: black;
+    color: white;
+ }
+
+ tbody tr:nth-child(1) {
+    background-color: rgb(235, 231, 231);
+ }
+
+ tbody tr:nth-child(2) {
+    background-color: white;
+ }
