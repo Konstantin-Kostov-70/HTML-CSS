@@ -1,0 +1,16 @@
+@media (max-width:600px) {
+    .w3-right {
+        display: none;
+    }
+
+    #about,
+    #menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w3-col.m6,
+    .w3-col.l6  {
+        width: 100%;
+    }
+}

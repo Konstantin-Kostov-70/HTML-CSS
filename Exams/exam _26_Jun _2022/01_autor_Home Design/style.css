@@ -25,14 +25,18 @@ img {
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
+
+
 .imgContainer {
     padding: 0 !important;
 }
+
 .main {
     max-width: 1200px;
     max-height: 500px;
     margin: 0 auto;
 }
+
 .header {
     display: flex;
     flex-direction: column;
@@ -40,15 +44,18 @@ img {
     align-items: stretch;
     margin: 30px;
 }
+
 .header > * {
     align-self: center;
-}
+} 
+
 .header > h3 {
     color: #ca2027;
     /* align-self: flex-end; */
     text-align: end;
     width: 210px;
 }
+
 .cards {
     display: grid;
     gap: 30px;

@@ -1,0 +1,196 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(57, 56, 56);
+}
+
+.header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1,
+.vl {
+    margin-right: 10px;
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 30px;
+}
+
+.logo,
+.nav__items {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 3px;
+}
+
+.nav__item button {
+    padding: 10px 20px;
+    font-size: small;
+    border: none;
+    cursor: pointer;
+}
+
+.nav__item:nth-child(1) button {
+    background-color: #e24e2a;
+    color: white;
+}
+
+.hero {
+    width: 100vw;
+    height: 80vh;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.red__section {
+    width: 100vw;
+    height: 30vh;
+    background-color: #e24e2a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.red__section p {
+    width: 70vw;
+}
+
+.red__section span {
+    font-weight: bold;
+}
+
+.red__section a {
+    color: white;
+}
+
+.icon_section {
+    width: 100vw;
+    height: 70vh;
+    background-color: #383838;
+    padding: 60px 30px;
+}
+
+.icon__container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.icon__container li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+
+}
+
+.icon__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon__box i {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    background-color: #e24e2a;
+    color: white;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__box p {
+    color: white;
+}
+
+.icon_desc {
+    color: #6c6c6c;
+}
+
+.white__section {
+    width: 100vw;
+    height: 40vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.white__container {
+    width: 70vw;
+    height: 20vh;
+   text-align: center;
+}
+
+.white__desc {
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #1b9772;
+    color: white;
+    border: none;
+    font-size: small;
+}
+
+.bottom__section {
+    width: 100vw;
+    height: 40vh;
+    padding: 30px;
+    background-color: #383838;
+    color: #6c6c6c;
+}
+
+.bottom__container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+
+.bottom__container li {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: small;
+}
+
+.bottom__container h3 {
+    color: white;
+}
+
+.green__section {
+    width: 100vw;
+    height: 20vh;
+    background-color: #1b9772;
+    color: #5bb490;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green__section span {
+    color: #a2d4c1;
+}
+
