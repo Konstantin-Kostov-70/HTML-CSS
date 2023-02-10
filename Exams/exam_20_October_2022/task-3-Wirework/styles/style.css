@@ -89,22 +89,13 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-}
-
-.icon__container li {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     text-align: center;
     font-size: small;
-
 }
 
 .icon__box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   margin-bottom: 40px;
 }
 
 .icon__box i {
@@ -114,9 +105,7 @@ body {
     background-color: #e24e2a;
     color: white;
     font-size:40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: unset;
 }
 
 .icon__box p {
