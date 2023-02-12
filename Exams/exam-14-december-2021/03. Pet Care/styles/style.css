@@ -80,7 +80,7 @@ nav {
     border: none;
     background-color: white;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #e92915;
 }
 
@@ -197,7 +197,7 @@ nav {
     border: none;
     background-color: #e92915;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
 }
 
@@ -248,7 +248,10 @@ footer {
     font-size: x-large;
     font-weight: 700;
     margin-bottom: 20px;
+}
 
+button {
+    cursor: pointer;
 }
 
 
