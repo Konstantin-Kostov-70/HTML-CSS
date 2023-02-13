@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+body {
+    font-family: Montserrat;
+     font-size: 0.73rem;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Lato;
+}
+
+main {
+    justify-content: space-around;
+    padding: 60px 140px;
+    display: flex;
+    
+}
+
+.left,
+.right {
+    height: 280px;
+    padding: 30px;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    justify-content: center;
+    box-shadow: 1px 1px 2px gray ;
+}
+
+.right {
+    align-items: center;
+    border: 3px solid #44a9f8;
+}
+
+.right__title span {
+   font-size: small;
+}
+
+.left {
+    background-color: #e3f3fd;
+}
+
+
+i {
+    margin-right: 10px;
+    color: #44a9f8;
+}
+
+p ,h2,h1 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px gray ;
+    background-color: #44a9f8;
+    color: white;
+}
+
+h1 {
+    color: #44a9f8;
+}
+
+.right__title span {
+    color: #7e7979;
+}
+
+
