@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+body {
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+
+.car {
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 0.8rem;
+}
+
+main {
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.item img {
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.item h2 {
+    color: #101010;
+    font-weight: 600;
+}
+
+
