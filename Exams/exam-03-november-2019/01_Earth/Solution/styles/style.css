@@ -1,0 +1,91 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 150px;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0 5px 10px;
+}
+
+header p {
+    color: white;
+}
+
+h1 {
+    color: #00f4fc;
+}
+
+article {
+    width: 44vw;
+    height: 530px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+section {
+    padding: 15px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: 800;
+   
+}
+
+section span {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    font-weight: 700;
+}
+
+.desc {
+    width:53%;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.earth {
+    width: 40%;
+    height: 270px;
+    font-size: 0.6rem;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 50px;
+}
+
+.earth img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #d9ebeb;
+    font-size: 0.9rem;
+    padding: 15px;
+    line-height: 18px;
+    
+}
+
+p {
+    letter-spacing: 1px;
+}
+

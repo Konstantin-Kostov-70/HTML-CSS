@@ -1,0 +1,22 @@
+My Screen Resolution is 
+
+1280 x 720
+
+Screen Width: 1280 pixels
+Screen Height: 720 pixels
+
+----------------------------------
+
+Laptop Lenovo ThingPad T470s
+
+----------------------------------
+
+Display:
+
+Scale and Layout
+150% (Recommended)
+
+Display Resolution
+1920 x 1080 (Recommended)
+
+----------------------------------

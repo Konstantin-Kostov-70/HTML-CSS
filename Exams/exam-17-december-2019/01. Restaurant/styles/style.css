@@ -54,7 +54,7 @@ input {
     border: none;
     border-bottom: 0.5px solid #d5d2d2;
     font-size: 0.7rem;
-    height: 50px;
+    height: 60px;
     /* position: relative; */
     outline: none;
     cursor: text;
@@ -62,7 +62,7 @@ input {
 }
 
 input[type=text] {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 input::placeholder {
