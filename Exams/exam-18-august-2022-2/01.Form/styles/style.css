@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(114, 112, 112);
+
+}
+
+main {
+    min-height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+form {
+    padding: 20px;
+    width: 650px;
+    height:450px ;
+    background-image: url(../images/form-background.png);
+    background-size: cover;
+    
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin-left: 50px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.items.first,
+.items.check {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.items,
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name input {
+    width: 140px;
+    margin-right: 20px;
+}
+
+input {
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    outline-color: #ae3c33;
+}
+
+input[type=checkbox] {
+    accent-color: #ae3c33;
+  }
+
+input:not(.check input) {
+    height: 31px;
+}
+
+.check input {
+    width: 22px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+button {
+    width: 160px;
+    margin: 20px auto;
+    padding: 10px 15px;
+
+    color: white;
+    background-color: #ae3c33;
+
+    font-size: 0.9rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
